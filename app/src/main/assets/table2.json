@@ -1,0 +1,46 @@
+{
+  "id":2,
+  "type":2,
+  "name":"危险化学品经营单位危险化学品经营情况调查表",
+  "datas":[
+    {
+      "id":2,
+      "type":100,
+      "isLastOne":true,
+      "submitKey":"expandable",
+      "name":"危险化学品经营单位危险化学品经营情况",
+      "datas":[
+        {
+          "id":1,
+          "type":1,
+          "submitKey":"dgcode",
+          "name":"危规号",
+          "value":""
+        },
+        {
+          "id":1,
+          "type":1,
+          "submitKey":"place",
+          "name":"所在场所、单元",
+          "value":""
+        },
+        {
+          "id":1,
+          "type":1,
+          "submitKey":"pmaxnum",
+          "name":"经营场所最大使用量(T)",
+          "value":""
+        },
+        {
+          "id":1,
+          "type":1,
+          "submitKey":"ymaxnum",
+          "name":"年最大使用量(T)",
+          "value":""
+        }
+      ]
+    }
+
+  ]
+}
+

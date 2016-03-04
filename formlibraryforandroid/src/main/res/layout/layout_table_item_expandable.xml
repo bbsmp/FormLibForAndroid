@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/id_dialog_title"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_marginLeft="8dp"
+        android:singleLine="true"
+        android:gravity="center"
+        android:padding="0dp"
+        android:layout_height="@dimen/edit_text_hight"
+        android:background="@drawable/shape_grey_corner_edittext"
+        android:textSize="@dimen/main_text_size"/>
+    <LinearLayout
+        android:id="@+id/id_edit"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/id_edit_imgbtn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:alpha="0.8"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/add"/>
+    </LinearLayout>
+
+</LinearLayout>
